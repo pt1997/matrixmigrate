@@ -357,7 +357,9 @@ hs_token: "YOUR_GENERATED_HS_TOKEN"
 sender_localpart: matrixmigrate
 rate_limited: false  # Disable rate limiting for AS
 namespaces:
-  users: []
+  users:
+    - regex: ".*"
+      exclusive: false
   rooms: []
   aliases: []
 ```
