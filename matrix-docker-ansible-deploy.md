@@ -86,6 +86,7 @@ matrix_synapse_rc_invites:
     per_second: 10000
     burst_count: 10000
 ```
+- set "matrix_synapse_auto_accept_invites_enabled: true" as described in the README
 
 - apply changes using: ansible-playbook -i inventory/hosts setup.yml --tags=setup-all,start
 
