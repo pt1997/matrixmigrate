@@ -780,7 +780,9 @@ hs_token: "OLUŞTURDUĞUNUZ_HS_TOKEN"
 sender_localpart: matrixmigrate
 rate_limited: false  # AS için hız sınırlamasını devre dışı bırak
 namespaces:
-  users: []
+  users:
+    - regex: ".*"
+      exclusive: false
   rooms: []
   aliases: []
 ```
