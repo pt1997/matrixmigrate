@@ -93,5 +93,4 @@ matrix_synapse_rc_invites:
 
 - to restart the docker restart the matrix-synapse systemd service
 
-## Rate limiting
 
